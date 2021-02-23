@@ -1,0 +1,80 @@
+/*selector*/
+/*declaration block {  }*/
+/*declaration : property : value*/
+
+p {
+	color: red;
+	font-size: 12px;
+}
+
+/*id selector*/
+
+#para {
+	text-align: center;
+	color: blue;
+}
+
+/*class selector*/
+
+.para {
+	text-align: left;
+	color: #ffcc00;
+}
+
+/*universal selector menggunakan * */
+* {
+	text-align: center;
+}
+
+/*grouping selector : jika akan menerapkan style yg sama*/
+
+h1 , h2 , h3 , p {
+	color: red;
+	font-weight: bold;
+}
+
+/* element with class*/
+
+p.center {
+	text-align: center;
+	color: yellow;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* 3 cara memasukkan css*/
+/*
+	1. external dengan elemen link dan href
+	2. internal dengan tag style
+	3. inline dengan attribut style dalam element
+*/
+
+/* urutan prioritas style yg akan diterapkan pada element adalah :
+	1. inline
+	2. external dan internal 
+	3. browser default
+*/
+
+/*komentar dalam fie css */
+
+/*colors format css : predefined color name , RGB, HEX, RGBA HSLA */
+/*color names 140 standard color names*/
+/* RGB =>  rgb(255, 99, 71)*/
+/* RGBA with transparent => rgba(255, 99, 71, 0.5)*/
+/* HSL =>  rgb(255, 99, 71)*/
+/* HSLA with transparent => hsla(255, 99, 71, 0.5)*/
+/*HEX #ff6347 */
+
+/*background*/
+/*
+	background-color
+	background-image
+	background-repeat
+	background-attachment
+	background-position
+	background (shorthand property)
+*/
+div.background {
+
+	background-color: rgb(255,99,71);
+}
